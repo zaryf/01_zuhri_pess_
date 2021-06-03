@@ -1,0 +1,43 @@
+    #HeaderStyle {
+      font: bold 11px/1.5em Verdana;
+      float:left;
+      width:100%;
+      background:change-background;
+      line-height:normal;
+      }
+    #HeaderStyle ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+      }
+    #HeaderStyle li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #HeaderStyle a {
+      float:left;
+      background:url("images/tableft21.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 5px;
+      text-decoration:none;
+      }
+    #HeaderStyle a span {
+      float:left;
+      display:block;
+      background:url("images/tabright21.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #HeaderStyle a span {float:none;}
+    /* End IE5-Mac hack */
+    #HeaderStyle a:hover span {
+      color:#FFF;
+      }
+    #HeaderStyle a:hover {
+      background-position:0% -42px;
+      }
+    #HeaderStyle a:hover span {
+      background-position:100% -42px;
+      }
